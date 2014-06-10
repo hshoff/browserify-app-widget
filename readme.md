@@ -1,6 +1,6 @@
 # The Millennium Falcon Widget
 
-Testing out `browserify` and `brfs` for modular UI development.
+Following along with the tutorial in the [browserify-handbook](https://github.com/substack/browserify-handbook#reusable-components) for building resuable components.
 
 ### index.js
 
@@ -53,4 +53,9 @@ Widget.prototype.setMessage = function(msg) {
 };
 ```
 
-# MIT
+### development
+
+- `npm run build`
+- `npm run watch`
+
+### MIT
