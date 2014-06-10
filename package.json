@@ -1,0 +1,17 @@
+{
+  "name": "browserify-app-widget",
+  "version": "1.0.0",
+  "private": true,
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.js -o build/bundle.js",
+    "watch": "watchify index.js -o build/bundle.js --debug --verbose"
+  },
+  "author": "@hshoff",
+  "license": "MIT",
+  "dependencies": {
+    "browserify": "~4.1.9",
+    "watchify": "~0.10.2"
+  }
+}
